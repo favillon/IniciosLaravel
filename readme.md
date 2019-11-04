@@ -14,3 +14,14 @@ En el auto load de composer se cargo la Clase FeatureTestCase
 ```shell
 composer dump-autoload
 ```
+
+## Como modificar el origin de github de https a ssh
+
+
+Se ejecuta la siguiente sentencia para el cambio de remote. Para mas informacion [Aquí](https://help.github.com/es/github/using-git/changing-a-remotes-url)
+```shell
+git remote set-url origin git@github.com:<user>/<repositorio>.git
+```
+
+
+
